@@ -9,7 +9,7 @@
 // [1, 2, 3, 6, 2]-> 0
 
 // [10, 11, 12, 13, 14]-> 5
-int[] startArray = GetArray(123, -200 , 1230);
+int[] startArray = GetArray(123, -200 , 123);
 Console.WriteLine($"Количество элементов в отрезке [10;99] = {GetCountElements(startArray, 10, 99)}");
 
 int[] GetArray(int size, int minValue, int maxValue)
